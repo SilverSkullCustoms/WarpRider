@@ -2,23 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rotationscript : MonoBehaviour
+public class MovementScript : MonoBehaviour
 {
- 
-    public Vector3 rot;
-    public Transform rotcap;
-
     // Start is called before the first frame update
     void Start()
     {
-
-
+        
     }
+
+    // Update is called once per frame
     void Update()
     {
-        rotcap.Rotate(rot);
+        
     }
-
-    
 }
-
