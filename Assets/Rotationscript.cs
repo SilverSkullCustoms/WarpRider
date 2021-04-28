@@ -12,14 +12,14 @@ public class Rotationscript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rotspeed = 0.015f;
+        rotspeed = -0.015f;
        
 
     }
     void Update()
     {
         rotcap.Rotate(rot);
-        rot = new Vector3(rotspeed, 0, 0);
+        rot = new Vector3(0, 0, rotspeed);
     }
 
     
