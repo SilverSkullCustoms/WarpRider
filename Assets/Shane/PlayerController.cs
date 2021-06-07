@@ -6,50 +6,46 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
 
+    public float horizontal;
+
     public Transform[] arrayMove;
 
     public Transform nextPos;
 
     public int index;
-    //Array aanmaken met 01234 met daarin Vector3, zodat hij die punten kan pakken, voorloop weghalen
 
     // Start is called before the first frame update
     void Start()
     {
-        nextPos = arrayMove[2];
+        index = 2;
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*float h = Input.GetAxis("Horizontal");
 
-        Vector3 move = new Vector3();
+        float horizontal = Input.GetAxis("Horizontal");
 
-        move.x = -h;
-
+        if (horizontal > 0)
+        {
+            index++;
+        }
         
-        transform.Translate(move * moveSpeed * Time.deltaTime);
-        */
-
-        if (Input.GetButtonDown("Left"))
+        if(horizontal < 0)
         {
-            if (index < arrayMove.Length)
-            {
-                nextPos = arrayMove[index];
-                index--;
-                transform.position = nextPos.position;
-            }
+            index--;
         }
 
-        if (Input.GetButtonDown("Right"))
+        if(index > 4)
         {
-            if (index < arrayMove.Length)
-            {
-                nextPos = arrayMove[index];
-                index++;
-                transform.position = nextPos.position;
-            }
+            index = 4;
         }
+
+        if(index < 0)
+        {
+            index = 0;
+        }
+
+        transform.position = arrayMove[index].position;
     }
 }

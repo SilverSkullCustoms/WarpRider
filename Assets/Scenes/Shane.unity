@@ -460,7 +460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ab10125e43042438c359aaa2e26729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4.5
+  moveSpeed: 1
+  horizontal: 0
   arrayMove:
   - {fileID: 270356102}
   - {fileID: 1043676612}
@@ -468,7 +469,7 @@ MonoBehaviour:
   - {fileID: 1851144666}
   - {fileID: 877818639}
   nextPos: {fileID: 0}
-  index: 3
+  index: 2
 --- !u!1 &1043676611
 GameObject:
   m_ObjectHideFlags: 0
