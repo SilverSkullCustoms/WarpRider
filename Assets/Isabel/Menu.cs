@@ -10,16 +10,17 @@ public class Menu : MonoBehaviour
     public GameObject pauseScreen;
     public static bool GameIsPaused = false;
     public GameObject pauseMenu;
+    public bool alive;
     // Start is called before the first frame update
     void Start()
     {
-        
+        alive = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GameIsPaused)
             {
@@ -32,27 +33,18 @@ public class Menu : MonoBehaviour
             }
         }
 
-
-        if (alive == true)
-        {
-
-            else
-            {
-                gameOverScreen();
-            }
-        }
     }
     void Resume()
     {
         pauseMenu.SetActive(false);
-        Time.timescale = 1f;
+        Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
     void Pause()
     {
         pauseMenu.SetActive(true);
-        Time..timescale = of;
+        Time.timeScale = 0f;
         GameIsPaused = true;
     }
 
