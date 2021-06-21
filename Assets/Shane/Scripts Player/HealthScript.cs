@@ -27,8 +27,4 @@ public class HealthScript : MonoBehaviour
         } 
     }
 
-    void ExplosionPlayer()
-    {
-
-    }
 }
