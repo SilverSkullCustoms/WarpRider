@@ -23,29 +23,32 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        float horizontal = Input.GetAxis("Horizontal");
-
-        if (horizontal > 0)
+        if (Input.GetButtonDown("Horizontal"))
         {
-            index++;
-        }
+            horizontal = Input.GetAxis("Horizontal");
+
+            if (horizontal > 0)
+            {
+                index++;
+            }
         
-        if(horizontal < 0)
-        {
-            index--;
-        }
+            if(horizontal < 0)
+            {
+                index--;
+            }
 
-        if(index > 4)
-        {
-            index = 4;
-        }
+            if(index > 4)
+            {
+                index = 4;
+            }
 
-        if(index < 0)
-        {
-            index = 0;
-        }
+            if(index < 0)
+            {
+                index = 0;
+            }
 
-        transform.position = arrayMove[index].position;
+            transform.position = arrayMove[index].position;
+
+        }
     }
 }
