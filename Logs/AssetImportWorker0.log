@@ -719,3 +719,90 @@ System memory in use after: 146.3 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2075.
 Total: 2.386800 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.075100 ms MarkObjects: 1.977900 ms  DeleteObjects: 0.021300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1393.856795 seconds.
+  path: Assets/Shane
+  artifactKey: Guid(4da4fe30f872d0c45a9fd249f11b38ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shane using Guid(4da4fe30f872d0c45a9fd249f11b38ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176668420d946761dd5273f4009bd867') in 0.012533 seconds
+  Import took 0.016566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001111 seconds.
+  path: Assets/Shane
+  artifactKey: Guid(4da4fe30f872d0c45a9fd249f11b38ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shane using Guid(4da4fe30f872d0c45a9fd249f11b38ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176668420d946761dd5273f4009bd867') in 0.003637 seconds
+  Import took 0.006261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.668331 seconds.
+  path: Assets/Shane/Scripts Animation
+  artifactKey: Guid(9c98dbdde9667e745b3e51cf442cdad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shane/Scripts Animation using Guid(9c98dbdde9667e745b3e51cf442cdad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24e3e5d27184a8ba9bc97d9a615d2b0') in 0.007776 seconds
+  Import took 0.010916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.274058 seconds.
+  path: Assets/Shane/Scripts Planet
+  artifactKey: Guid(bcfd6e85499cd5348aaa3d5cf13f66f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shane/Scripts Planet using Guid(bcfd6e85499cd5348aaa3d5cf13f66f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5319403fd757bb9f75de97b4da56392') in 0.007579 seconds
+  Import took 0.010329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002028 seconds.
+  path: Assets/Shane/Scripts Planet
+  artifactKey: Guid(bcfd6e85499cd5348aaa3d5cf13f66f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shane/Scripts Planet using Guid(bcfd6e85499cd5348aaa3d5cf13f66f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5319403fd757bb9f75de97b4da56392') in 0.003529 seconds
+  Import took 0.006973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.728202 seconds.
+  path: Assets/Shane/Scripts Player
+  artifactKey: Guid(c7969e23afd56ab48adae230d30d402f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shane/Scripts Player using Guid(c7969e23afd56ab48adae230d30d402f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6512006671f7d90fcc1aa6af03f515') in 0.009683 seconds
+  Import took 0.013487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.041541 seconds.
+  path: Assets/Shane/Scripts Player/DeathScript.cs
+  artifactKey: Guid(73458a5bf7a642d42b6871236986d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shane/Scripts Player/DeathScript.cs using Guid(73458a5bf7a642d42b6871236986d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84bc6a284fca534760eb840628cb7ab') in 0.007707 seconds
+  Import took 0.011009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.740674 seconds.
+  path: Assets/Shane/Scripts Player/HealthScript.cs
+  artifactKey: Guid(21dd4af359bf92f468955eae1ff661ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shane/Scripts Player/HealthScript.cs using Guid(21dd4af359bf92f468955eae1ff661ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa99982169b08d9de53cd9f818b4a1d2') in 0.007492 seconds
+  Import took 0.011218 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.2 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2078.
+Total: 1.927000 ms (FindLiveObjects: 0.147000 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.720900 ms  DeleteObjects: 0.013600 ms)
+
