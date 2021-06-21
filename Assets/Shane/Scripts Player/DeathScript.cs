@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DeathScript : MonoBehaviour
 {
@@ -21,5 +22,9 @@ public class DeathScript : MonoBehaviour
     {
         deathExplosion.Play();
 
+    }
+    void GameOverScreen()
+    {
+        SceneManager.LoadScene(sceneName: "GameOver");
     }
 }
