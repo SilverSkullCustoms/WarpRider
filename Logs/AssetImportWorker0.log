@@ -420,3 +420,20 @@ Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1925.
 Total: 1.959000 ms (FindLiveObjects: 0.172100 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.714700 ms  DeleteObjects: 0.018100 ms)
 >>>>>>> Stashed changes
 
+========================================================================
+Received Import Request.
+  Time since last request: 310.588218 seconds.
+  path: Assets/Scenes/Stefan.unity
+  artifactKey: Guid(969af54736f28584aac3030f39b18e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stefan.unity using Guid(969af54736f28584aac3030f39b18e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c3d39ce1890e8a01a3507b4960a041') in 0.011299 seconds
+  Import took 0.015792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002050 seconds.
+  path: Assets/Scenes/Stefan.unity
+  artifactKey: Guid(969af54736f28584aac3030f39b18e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stefan.unity using Guid(969af54736f28584aac3030f39b18e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c3d39ce1890e8a01a3507b4960a041') in 0.005000 seconds
+  Import took 0.008807 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
