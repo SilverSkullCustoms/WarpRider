@@ -7,21 +7,13 @@ public class Menu : MonoBehaviour
 {
     public GameObject startScreen;
     public GameObject gameOverScreen;
-    public GameObject pauseScreen;
-
-    public static bool GameIsPaused = false;
-    public GameObject pauseMenu;
     public bool alive;
     /// start
     public GameObject startA;
     public GameObject quitA;
     /// GameOver
-    public GameObject retryA;
+    public GameObject retryG;
     public GameObject backA;
-    /// Pause
-    public GameObject continueA;
-    public GameObject retryB;
-    public GameObject returnA;
 
     // Start is called before the first frame update
     void Start()
@@ -34,32 +26,7 @@ public class Menu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (GameIsPaused)
-            {
-                Resume();
 
-            }
-            else
-            {
-                Pause();
-            }
-        }
-
-    }
-    void Resume()
-    {
-        pauseMenu.SetActive(false);
-        Time.timeScale = 1f;
-        GameIsPaused = false;
-    }
-
-    void Pause()
-    {
-        pauseMenu.SetActive(true);
-        Time.timeScale = 0f;
-        GameIsPaused = true;
     }
 
     public void GameOver()
@@ -79,11 +46,8 @@ public class Menu : MonoBehaviour
     {
         startA.SetActive(false);
         quitA.SetActive(false);
-        retryA.SetActive(false);
+        retryG.SetActive(false);
         backA.SetActive(false);
-        continueA.SetActive(false);
-        retryB.SetActive(false);
-        returnA.SetActive(false);
     }
 
     public void OnStart()
@@ -98,33 +62,18 @@ public class Menu : MonoBehaviour
         quitA.SetActive(true);
     }
 
-    public void Retry()
+    /// GameOver
+    public void RetryGameOver()
     {
         DisablePanels();
-        retryA.SetActive(true);
+        retryG.SetActive(true);
     }
 
-    public void back()
+    public void Back()
     {
         DisablePanels();
-        backA.SetActive(true);
+        startScreen.SetActive(true);
     }
 
-    public void Continue()
-    {
-        DisablePanels();
-        continueA.SetActive(true);
-    }
 
-    public void RetryQ()
-    {
-        DisablePanels();
-        retryB.SetActive(true);
-    }
-
-    public void Return()
-    {
-        DisablePanels();
-        returnA.SetActive(true);
-    }
 }
