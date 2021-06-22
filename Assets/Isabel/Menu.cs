@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
@@ -29,9 +30,9 @@ public class Menu : MonoBehaviour
 
     }
 
-    public void GameOver()
+    void QuitGame()
     {
-        gameOverScreen.SetActive(true);
+        Application.Quit();
     }
 
     public void StartGame()
@@ -54,6 +55,7 @@ public class Menu : MonoBehaviour
     {
         DisablePanels();
         startA.SetActive(true);
+        SceneManager.LoadScene(sceneName: "Game");
     }
 
     public void Quit()
@@ -67,6 +69,7 @@ public class Menu : MonoBehaviour
     {
         DisablePanels();
         retryG.SetActive(true);
+        SceneManager.LoadScene(sceneName: "Game");
     }
 
     public void Back()
