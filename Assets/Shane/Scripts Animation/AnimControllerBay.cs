@@ -7,6 +7,8 @@ public class AnimControllerBay : MonoBehaviour
     public Animator anim;
     public GameObject launchBay;
     public bool gameStarted;
+    public GameObject rotationPlanet;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,4 +33,11 @@ public class AnimControllerBay : MonoBehaviour
         }
     }
 
+    void ActivateRotation()
+    {
+        if(gameStarted == true)
+        {
+            rotationPlanet.GetComponent<Rotationscript>().enabled = true;
+        }
+    }
 }

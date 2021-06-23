@@ -284,6 +284,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1147110594374404998, guid: c13d0afb53712f042b3069e17d6c8b84, type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 1217006685}
+    - target: {fileID: 1147110594374404998, guid: c13d0afb53712f042b3069e17d6c8b84, type: 3}
+      propertyPath: rotationPlanet
+      value: 
+      objectReference: {fileID: 1217006685}
     - target: {fileID: 1147110594374405017, guid: c13d0afb53712f042b3069e17d6c8b84, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -25624,6 +25632,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: sphere2
       objectReference: {fileID: 0}
+    - target: {fileID: 3254365214413355052, guid: f50d4636542f58f4c97c0d650dcba0d7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254365214413355053, guid: f50d4636542f58f4c97c0d650dcba0d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3254365214808939913, guid: f50d4636542f58f4c97c0d650dcba0d7, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -25674,6 +25690,11 @@ PrefabInstance:
 --- !u!4 &1217006684 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3254365214808939913, guid: f50d4636542f58f4c97c0d650dcba0d7, type: 3}
+  m_PrefabInstance: {fileID: 1217006683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1217006685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3254365214413355052, guid: f50d4636542f58f4c97c0d650dcba0d7, type: 3}
   m_PrefabInstance: {fileID: 1217006683}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1274020354 stripped
